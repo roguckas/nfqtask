@@ -32,6 +32,7 @@ Ar kada pagalvojote, kaip būtų faina, jei žinotumėte kiek maždaug dar reiki
     * 9.1 SVARBU!!! Jeigu <b>"Specialisto puslapis"</b> lange buvo atlikta <b>"Klientas Aptarnautas"</b> komanda, tai <b>"Švieslentės puslapis"</b> bus matomas atnaujintas klientų sąrašas (eilė)
 
 <h2>Kaip veikia sistema su <i>'pavyzdiniais duomenis'</i> <b>(step-by-step)</b> ?</h2>
+
 * Naršyklėje matomas <b>"Administratoriaus puslapis"</b>.
 
 * Šiame puslapyje <i>'naudotojas-specialistas'</i> turi galimybę pridėti "pavyzdinius duomenis" į klientų sąrašą.
