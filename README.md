@@ -32,7 +32,7 @@ Ar kada pagalvojote, kaip būtų faina, jei žinotumėte kiek maždaug dar reiki
     * 9.1 SVARBU!!! Jeigu <b>"Specialisto puslapis"</b> lange buvo atlikta <b>"Klientas Aptarnautas"</b> komanda, tai <b>"Švieslentės puslapis"</b> bus matomas atnaujintas klientų sąrašas (eilė)
 
 <h2>Kaip veikia sistema su <i>'pavyzdiniais duomenis'</i> <b>(step-by-step)</b> ?</h2>
-10. Naršyklėje matomas <b>"Administratoriaus puslapis"</b>.
+10. Naršyklėje matomas <b>"Administratoriaus puslapis"</b>.<br>
 11. Šiame puslapyje <i>'naudotojas-specialistas'</i> turi galimybę pridėti "pavyzdinius duomenis" į klientų sąrašą.
 Funkciją galima atlikti paspaudus mygtuką <b>"Įkelti pavyzdinius klientus"</b>.
     * 11.1 Paspaudus mygtuką "pavyzdiniai duomenys" yra išsaugojami į <i>'localSotrage'</i> pridėti klientą(-us) į laukimo sąrašą (eilę)
