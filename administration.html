@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Administravimo puslapis</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body id="administration">
+    <h2>Kliento vardas:</h2>
+    <input id="customerName" type="text" name="username" value="">
+    <br>
+    <h2>Specialistas:</h2>
+    <form>
+        <input type="radio" name="specialistInput" value="Juridiniai asmenys" id="j_a">Juridiniai asmenys
+        <input type="radio" name="specialistInput" value="Fiziniai asmenys" id="f_a">Fiziniai asmenys
+        <input type="radio" name="specialistInput" value="Paskolos suteikimas" id="p_s">Paskolos suteikimas
+    </form>
+    <h3 id="confirm"></h3>
+    <hr>
+    <br>
+    <div class="buttons">
+        <button onclick="saveInputData()">Išsaugoti klientą</button>
+        <a href="board.html"><button>Klientų sąrašas</button></a>
+        <hr>
+        <br>
+        <button id="exampledata" onclick="saveExampleData()">Įkelti pavyzdinius klientus</button>
+        <button id="delete_data" onclick="deleteData()">Delete LocalStorage data</button>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,10 @@
+{
+  "customers":[
+    {"customerName":"Almantas", "number":22, "specialist":"Juridiniai asmenys"},
+    {"customerName":"Artūras", "number":11, "specialist":"Fiziniai asmenys"},
+    {"customerName":"Algirdas", "number":56, "specialist":"Paskolos suteikimas"},
+    {"customerName":"Jonas", "number":98, "specialist":"Juridiniai asmenys"},
+    {"customerName":"Martynas", "number":97, "specialist":"Fiziniai asmenys"}
+  ]
+}
+

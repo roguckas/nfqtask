@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Specialisto puslapis</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body id="manage" onload="displayData()">
+<p id="data"></p>
+<button onclick="deleteCustomer(); window.location.reload();">Klientas Aptarnautas</button>
+<hr>
+<form>
+    <h2>Filtruoti Pagal:</h2>
+    <input type="checkbox" name="specialistInput" value="Juridiniai asmenys" onclick="sortBySpecialist(this.value);" onkeydown="window.location.reload();" id="j_a">Juridiniai asmenys
+    <input type="checkbox" name="specialistInput" value="Fiziniai asmenys" onclick="sortBySpecialist(this.value);" onkeydown="window.location.reload();" id="f_a">Fiziniai asmenys
+    <input type="checkbox" name="specialistInput" value="Paskolos suteikimas" onclick="sortBySpecialist(this.value);" onkeydown="window.location.reload();" id="p_s">Paskolos suteikimas
+    <br>
+    <p><b>Galima filtruoti klientus pažymėjus tik 1 specialisto rūšį.</b></p>
+    <p><b>!!!SVARBU!!! Norint atlikti 'reset filters' komanda paspauskite<img style="width: 100px" src="files/arrow_down.png"> klaviatūros mygtuką.</b></p>
+</form>
+<hr>
+<div id="filtered"></div>
+<hr>
+<a href="administration.html"><button>Administravimo puslapis</button></a>
+<a href="board.html"><button>Švieslentės puslapis</button></a>
+<script src="main.js"></script>
+</body>
+</html>
