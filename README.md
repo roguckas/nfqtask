@@ -1,5 +1,4 @@
 # NFQ Academy Task
-![NFQ Akademija Logo](files/akademijos-logo.png)
 
 # Project Overview
 Ligoninėse, bankuose, pašte, pasų išdavimo skyriuose ir pan. galima matyti ekranus su skaičiukais. 
@@ -7,7 +6,7 @@ Ateini, gauni lapuką pas pasirinktą specialistą/darbuotoją/langelį ir lauki
 
 Ar kada pagalvojote, kaip būtų faina, jei žinotumėte kiek maždaug dar reikia laukti eilėje ir atitinkamai susiplanuoti savo darbus.
 
-#Operating instructions
+# Operating instructions
 <h1>LEVEL 1</h1>
 <h2>Kaip veikia sistema su <i>'naudotojas-specialistas'</i> įvestais duomenimis <b>(step-by-step)</b> ?</h2>
 
