@@ -33,12 +33,17 @@ Ar kada pagalvojote, kaip būtų faina, jei žinotumėte kiek maždaug dar reiki
 
 <h2>Kaip veikia sistema su <i>'pavyzdiniais duomenis'</i> <b>(step-by-step)</b> ?</h2>
 * Naršyklėje matomas <b>"Administratoriaus puslapis"</b>.
+
 * Šiame puslapyje <i>'naudotojas-specialistas'</i> turi galimybę pridėti "pavyzdinius duomenis" į klientų sąrašą.
 Funkciją galima atlikti paspaudus mygtuką <b>"Įkelti pavyzdinius klientus"</b>.
+
     * Paspaudus mygtuką "pavyzdiniai duomenys" yra išsaugojami į <i>'localSotrage'</i> pridėti klientą(-us) į laukimo sąrašą (eilę)
+    
 * Suformuotą klientų sąrašą <i>'naudotojas-specialistas'</i> gali pamatyti paspaudęs mygtuką <b>"Klientų sąrašas"</b>
+
     * <b>SVARBU!!!</b> Esant <b>"Švieslentės puslapis"</b> lange paspaudus mygtuką <b>"Administratoriaus puslapis"</b> <i>'naudotojas-specialistas'</i> yra sugrąžinamas į pradinį puslapį (<b>"Administratoriaus puslapis"</b>)
         Visi prieš tai išsaugoti duomenys išlieka, tai suteikia galimybę pridėti pridėti daugiau klientų į sąrašą, juos įvedant "ranka".
+        
     * <b>SVARBU!!!</b> Sugrįžus iš <b>"Švieslentės puslapis"</b> į <b>"Administratoriaus puslapis"</b> <i>'naudotojas-specialistas'</i> pakartotinai paspaudęs mygtuką <b>"Įkelti pavyzdinius klientus"</b> per naują nustato <i>'localStorage'</i> talpykloje išsaugotus duomenis.
         Visi prieš tai išsaugoti duomenys išlieka dingsta. Programa toliau veikia nuo 1. punkto.
         
